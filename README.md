@@ -5,4 +5,4 @@
   
   
  <h2 align = "center"> :moneybag: Descrição </h2>
- <p align = "center"> Projeto front-end de aplicação financeira desenvolvido nas linguagens HTML, CSS e JavaScript junto com a Maratona Discovery da RocketSeat:rocket:</p>
+ <p align = "center"> Projeto front-end de aplicação financeira desenvolvido nas linguagens HTML, CSS e JavaScript junto com a Maratona Discovery da RocketSeat</p>
