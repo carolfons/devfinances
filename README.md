@@ -6,7 +6,7 @@
   ---
   
  <h2 align = "center"> Descrição </h2>
- <p align = "center"> Projeto front-end de aplicação financeira desenvolvido nas linguagens HTML, CSS e JavaScript junto com a Maratona Discovery da RocketSeat. A aplicação tem como objetivo mostrar as entradas e saídas do dinheiro do usuário durante o mês </p>
+ <p align = "center"> Projeto front-end de aplicação financeira desenvolvido nas linguagens HTML, CSS e JavaScript junto com a Maratona Discovery da RocketSeat. A aplicação tem como objetivo mostrar as entradas e saídas do dinheiro do usuário durante o mês. </p>
 
 <h2 align = "center">Tecnologias </h2>
 
