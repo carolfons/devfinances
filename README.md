@@ -6,7 +6,7 @@
   ---
   
  <h2 align = "center"> Descrição </h2>
- <p align = "center"> Projeto front-end de aplicação financeira desenvolvido nas linguagens HTML, CSS e JavaScript junto com a Maratona Discovery da RocketSeat</p>
+ <p align = "center"> Projeto front-end de aplicação financeira desenvolvido nas linguagens HTML, CSS e JavaScript junto com a Maratona Discovery da RocketSeat. A aplicação tem como objetivo mostrar as entradas e saídas do dinheiro do usuário durante o mês </p>
 
 <h2 align = "center">Tecnologias </h2>
 
@@ -16,3 +16,12 @@
 <code><img height="32" src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png" alt="Javascript"/></code>
 
 </p>
+
+<h2 align = "center">Status</h2>
+<p align = "center"> Em desenvolvimento ... </p>
+
+<h2 align = "center">Licença</h2>
+<p align = "center"> Esse projeto está sob a licença MIT  </p>
+
+---
+<p align = "center"> Desenvolvido por Caroline Fonseca </p>
