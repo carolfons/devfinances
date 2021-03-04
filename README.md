@@ -22,6 +22,7 @@
 
 <h2 align = "center">Licença</h2>
 <p align = "center"> Esse projeto está sob a licença MIT  </p>
+<p align = "center"><img alt="GitHub" src="https://img.shields.io/github/license/carolfons/devfinances"></p>
 
 ---
 <p align = "center"> Desenvolvido por Caroline Fonseca </p>
