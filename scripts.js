@@ -39,6 +39,11 @@ const transactions = [{
 const Transaction = {
 
   all: transactions,
+  add(transaction){
+    Transaction.all.push(transaction)
+
+    App.reload()
+  },
   //somar as entradas
   incomes(){
     let income = 0;
@@ -111,6 +116,9 @@ const DOM = {
 
     document.getElementById('totalDisplay')
       .innerHTML = Utils.formatCurrency(Transaction.total());
+  },
+  clearTransaction(){
+    DOM.transactionsContainer.innerHTML = "";
   }
 }
 
@@ -130,8 +138,27 @@ const Utils = {
   }
 }
 
-transactions.forEach(function(transaction){
-  DOM.addTransaction(transaction);
-})
+const App = {
+  init(){
 
-DOM.updateBalance();
+    Transaction.all.forEach(function(transaction){
+      DOM.addTransaction(transaction);
+    })
+    
+    DOM.updateBalance();
+
+  },
+  reload(){
+    DOM.clearTransaction();
+    App.init();
+  },
+}
+
+App.init();
+
+Transaction.add({
+  id:39,
+  description:'Faxina',
+  amount: -7000,
+  date:'05/03/2021'
+})
