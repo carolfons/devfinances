@@ -1,4 +1,4 @@
-<h1 align = "center"> Devfinance$ :money_with_wings: </h1>
+<h1 align = "center"> devfinance$ </h1>
 <p align = "center"><img alt="GitHub language count" src="https://img.shields.io/github/languages/count/carolfons/devfinances">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/carolfons/devfinances?color=black">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/carolfons/devfinances?color=green">
