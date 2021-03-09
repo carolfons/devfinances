@@ -13,29 +13,19 @@ const Modal = {
   },
 }
 
+//salvando dados no Local Storage
+const Storage = {
+  get(){
+    return JSON.parse(localStorage.getItem("dev.finances:transactions")) || [];
+  },
+  set(transactions){
+    localStorage.setItem("dev.finances:transactions", JSON.stringify(transactions));
+  }
+}
+
 const Transaction = {
 
-  all: [{
-  
-    description: 'Luz',
-    amount: -50000,
-    date:'23/01/2021',
-  
-    },
-    {
-    description: 'Website',
-    amount: 500000,
-    date:'23/01/2021',
-  
-    },
-    {
-    description: 'Internet',
-    amount: -20000,
-    date:'23/01/2021',
-  
-    },
-  ],
-
+  all: Storage.get(),
   //adicionar transações
   add(transaction){
     Transaction.all.push(transaction)
@@ -226,6 +216,7 @@ const Form = {
   }
 }
 
+
 const App = {
   init(){
 
@@ -233,7 +224,10 @@ const App = {
       DOM.addTransaction(transaction,index);
     })
     
+    //atualizando cartões
     DOM.updateBalance();
+    //atualizando a local storage
+    Storage.set(Transaction.all);
 
   },
   reload(){
