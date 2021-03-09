@@ -18,7 +18,7 @@
 </p>
 
 <h2 align = "center">Status</h2>
-<p align = "center"> Em desenvolvimento ... </p>
+<p align = "center"> Finalizado :money_with_wings: </p>
 
 <h2 align = "center">Licença</h2>
 <p align = "center"> Esse projeto está sob a licença MIT  </p>
