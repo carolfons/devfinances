@@ -17,10 +17,9 @@
 
 </p>
 
-<h2 align = "center">Status</h2>
-<p align = "center"> Finalizado :money_with_wings: </p>
-<h3 align = "center"> Deploy: </h3>
+<h3 align = "center">Status: Finalizado :money_with_wings: || Deploy: </h3>  
 <p align = "center"><a href = "https://my-finances-green.vercel.app"><img alt="Vercel" src="https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white"/</a></p>
+
 
 <h2 align = "center">Licença</h2>
 <p align = "center"> Esse projeto está sob a licença MIT  </p>
